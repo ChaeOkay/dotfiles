@@ -36,6 +36,7 @@ PROMPT_COMMAND=bash_prompt
 
 alias v='vim'
 alias gi='git'
+ailas gb='git branch'
 alias gd='git diff'
 alias gdc='git diff cached'
 alias gri='git rebase -i'
