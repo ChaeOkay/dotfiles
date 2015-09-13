@@ -20,6 +20,17 @@ set title               " set window title
 set encoding=utf-8      " set default encoding to UTF-8
 set backspace=indent,eol,start  " backspace through everything in insert mode
 set list                " show invisible characters
+set scrolloff=10        " keep 10 lines of text above/below the cursor when near the top/bottom of buffer
+
+" hilight the current line in current window; may slow down redrawing for long
+" lines or large files
+autocmd winenter * setlocal cursorline
+autocmd winleave * setlocal nocursorline
+
+" highlight the current column in current window; may slow down redrawing
+" for long lines or large files
+autocmd winenter * setlocal cursorcolumn
+autocmd winleave * setlocal nocursorcolumn
 
 syntax enable
 set background=light
