@@ -39,7 +39,6 @@ set listchars+=precedes:<         " The character to show in the last column whe
 set hlsearch    " highlight matches
 set incsearch   " incremental searching
 set ignorecase  " searches are case insensitive...
-set smartcase   " ... unless they contain at least one capital letter
 
 " Disable arrow keys in command mode
 nnoremap <up> <nop>
