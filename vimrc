@@ -16,6 +16,7 @@ set ruler               " show line and column number
 set shiftwidth=2        " number of spaces for autoindent
 set softtabstop=2       " number of spaces for <Tab> in editing
 set tabstop=2           " number of spaces for <Tab> in file counts
+set expandtab           " for tabs as spaces
 set title               " set window title
 set encoding=utf-8      " set default encoding to UTF-8
 set backspace=indent,eol,start  " backspace through everything in insert mode
