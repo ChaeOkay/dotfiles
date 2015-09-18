@@ -4,6 +4,6 @@
 *.ssh
 
 *.env
-/*.swp
+*.swp
 tmp/**/*
 !tmp/cache/.keep
