@@ -16,4 +16,5 @@
 * [vim-ruby](https://github.com/vim-ruby/vim-ruby)
 * [vim-slim](https://github.com/slim-template/vim-slim)
 * [vim-surround](https://github.com/tpope/vim-surround)
+* [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace)
 
