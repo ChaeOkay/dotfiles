@@ -96,3 +96,5 @@ endif
 map <leader>n :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
+"" Clears cache so newly created files show up during ctrl p
+map <C-P> :CtrlPClearAllCaches<CR>:CtrlP<CR>
