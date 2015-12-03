@@ -23,6 +23,11 @@ set backspace=indent,eol,start  " backspace through everything in insert mode
 set list                " show invisible characters
 set scrolloff=10        " keep 10 lines of text above/below the cursor when near the top/bottom of buffer
 
+au BufRead,BufNewFile *.markdown,*.md set filetype=markdown
+autocmd FileType gitcommit,markdown setlocal spell
+autocmd FileType gitcommit,markdown set complete+=kspell
+set spellfile=~/.vim/en.utf-8.add
+
 " hilight the current line in current window; may slow down redrawing for long
 " lines or large files
 autocmd winenter * setlocal cursorline
