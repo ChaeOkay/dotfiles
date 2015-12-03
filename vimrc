@@ -103,3 +103,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 "" Clears cache so newly created files show up during ctrl p
 map <C-P> :CtrlPClearAllCaches<CR>:CtrlP<CR>
+
+"" Ack convenience
+map <leader>a :Ack!
