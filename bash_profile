@@ -49,4 +49,6 @@ alias ga='git add'
 alias gl='git log'
 alias gprune='git fetch --prune && git branch --merged | grep -v "*" | xargs -n 1 git branch -d'
 
+export PGHOST=localhost
+
 source ~/.bashrc
