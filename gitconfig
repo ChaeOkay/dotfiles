@@ -1,9 +1,9 @@
 [User]
 	name = chaeokay
-	email = chae@bignerdranch.com
+	email = chaemobile@gmail.com
 [core]
   editor = vim
-  excludesfile = /Users/jay/.gitignore.global
+  excludesfile = /Users/chae/.gitignore_global
 [diff]
 [color]
   ui = auto
@@ -16,7 +16,7 @@
   co = checkout
   cp = cherry-pick
   di = diff
-  dc = diff --cached
+  gdc = diff --cached
   dx = diff --no-prefix -U1000
   amend = commit --amend
   aa = add --all

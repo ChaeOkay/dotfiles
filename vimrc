@@ -12,6 +12,7 @@ set noerrorbells        " don't use any bells for errors
 set novisualbell        " don't use any visual flashes for errors
 set nowrap              " do not wrap lines
 set relativenumber      " show relative line numbers
+set nu                  " show line number at cursor
 set ruler               " show line and column number
 set shiftwidth=2        " number of spaces for autoindent
 set softtabstop=2       " number of spaces for <Tab> in editing
