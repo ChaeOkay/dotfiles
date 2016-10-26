@@ -103,7 +103,7 @@
 ;;(key-chord-define evil-normal-state-map "s" 'ido-switch-buffer)
 
 ;;----------------------------------------------------------------------
-;; Neotree 
+;; Neotree
 
 (package-require 'neotree)
 (setq neo-smart-open t)
@@ -117,6 +117,9 @@
 (setq auto-save-file-name-transforms
   `((".*" ,"backups")))
 (setq auto-save-list-file-prefix "backups")
+(setq backup-by-copying t    ; Don't delink hardlinks
+      delete-old-versions t  ; Clean up the backups
+      version-control t)     ; Use version numbers on backups
 
 ;; Save version controlled files
 (setq vc-make-backup-files t)
