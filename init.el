@@ -100,7 +100,12 @@
 ;; Find file
 (key-chord-define-global ",f" 'find-file)
 ;; Buffer switching
-;;(key-chord-define evil-normal-state-map "s" 'ido-switch-buffer)
+(key-chord-define evil-normal-state-map ",s" 'ido-switch-buffer)
+;; NeoTree
+(key-chord-define-global ",n" 'neotree-toggle)
+;; Evil-mode insert-mode escape
+(key-chord-define evil-insert-state-map ",j" 'evil-normal-state)
+
 
 ;;----------------------------------------------------------------------
 ;; Neotree
